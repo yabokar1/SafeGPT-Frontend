@@ -22,6 +22,7 @@ export default function SideBar() {
             </span>
           </h2>
         </div>
+
         <div className="mx-2 mt-8">
           <button className="flex w-full gap-x-4 rounded-lg border border-slate-300 p-4 text-left text-sm font-medium text-slate-700 transition-colors duration-200 hover:bg-slate-200 focus:outline-none dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800">
             <svg
@@ -49,30 +50,14 @@ export default function SideBar() {
             </h1>
             <p className="text-xs text-slate-500 dark:text-slate-400">12 Mar</p>
           </button>
-          <button className="flex w-full flex-col gap-y-2 rounded-lg bg-slate-200 px-3 py-2 text-left transition-colors duration-200 focus:outline-none dark:bg-slate-800">
-            <h1 className="text-sm font-medium capitalize text-slate-700 dark:text-slate-200">
-              explain quantum computing
-            </h1>
-            <p className="text-xs text-slate-500 dark:text-slate-400">10 Feb</p>
-          </button>
+
           <button className="flex w-full flex-col gap-y-2 rounded-lg px-3 py-2 text-left transition-colors duration-200 hover:bg-slate-200 focus:outline-none dark:hover:bg-slate-800">
             <h1 className="text-sm font-medium capitalize text-slate-700 dark:text-slate-200">
-              How to create ERP Diagram
-            </h1>
-            <p className="text-xs text-slate-500 dark:text-slate-400">22 Jan</p>
-          </button>
-          <button className="flex w-full flex-col gap-y-2 rounded-lg px-3 py-2 text-left transition-colors duration-200 hover:bg-slate-200 focus:outline-none dark:hover:bg-slate-800">
-            <h1 className="text-sm font-medium capitalize text-slate-700 dark:text-slate-200">
-              API Scaling Strategies
+              How to use Tailwind components?
             </h1>
             <p className="text-xs text-slate-500 dark:text-slate-400">1 Jan</p>
           </button>
-          <button className="flex w-full flex-col gap-y-2 rounded-lg px-3 py-2 text-left transition-colors duration-200 hover:bg-slate-200 focus:outline-none dark:hover:bg-slate-800">
-            <h1 className="text-sm font-medium capitalize text-slate-700 dark:text-slate-200">
-              What is GPT UI?
-            </h1>
-            <p className="text-xs text-slate-500 dark:text-slate-400">1 Jan</p>
-          </button>
+
           <button className="flex w-full flex-col gap-y-2 rounded-lg px-3 py-2 text-left transition-colors duration-200 hover:bg-slate-200 focus:outline-none dark:hover:bg-slate-800">
             <h1 className="text-sm font-medium capitalize text-slate-700 dark:text-slate-200">
               How to use Tailwind components?

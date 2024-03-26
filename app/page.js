@@ -1,11 +1,10 @@
-import Image from "next/image";
 import SideBar from "./components/SideBar";
-import Prompt from "./components/Prompt";
+import Chat from "./components/Chat.jsx";
 export default function Home() {
   return (
     <div className="flex">
       <SideBar />
-      <Prompt />
+      <Chat />
     </div>
   );
 }
