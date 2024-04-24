@@ -2,15 +2,7 @@
 
 import React from "react";
 import { useRef, useState } from "react";
-import fetchOpenAI from "../Api.js";
 
-async function readData() {
-  const res = await fetchOpenAI();
-  console.log(res.choices[0].message.content);
-}
-
-readData();
-// fetchOpenAI();
 export default function Input({ onChatMessages }) {
   const userRef = useRef("");
   const [messages, setMessages] = useState();
