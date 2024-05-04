@@ -8,17 +8,16 @@ import { useState } from "react";
 
 export default function Chat() {
   const initialPrompt = {
-    input: "Please provide the private data you want to be initialized",
+    input: "Please provide the private data you want to be anonmyized",
     response: "",
   };
   const [chatHistory, setChatHistory] = useState([initialPrompt]);
   const [anonmyizeData, setAnonmyizedData] = useState("");
 
   async function handleChatMessages(message) {
-    // const res = await fetchOpenAI(message);
-
+  
     const response = await fetchAnonymizeData(message, anonmyizeData);
-    // console.log(response.data.message);
+    
 
     if (chatHistory[0].response === "") {
       setChatHistory((chats) => {
